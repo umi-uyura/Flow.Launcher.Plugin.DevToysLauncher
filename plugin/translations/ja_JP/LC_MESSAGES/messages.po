@@ -1,0 +1,132 @@
+# Japanese (Japan) translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-11-30 23:34+0900\n"
+"PO-Revision-Date: 2022-11-30 23:12+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja_JP\n"
+"Language-Team: ja_JP <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: plugin/devtoys.py:9
+msgid "TOOLNAME_BASE64"
+msgstr "テキスト向けの Base64 エンコード / デコードツール"
+
+#: plugin/devtoys.py:13
+msgid "TOOLNAME_BASE64IMG"
+msgstr "画像向けの Base64 エンコード / デコードツール"
+
+#: plugin/devtoys.py:17
+msgid "TOOLNAME_GZIP"
+msgstr "GZip を利用した文字列の圧縮と展開"
+
+#: plugin/devtoys.py:21
+msgid "TOOLNAME_HASH"
+msgstr "ハッシュ生成ツール"
+
+#: plugin/devtoys.py:25
+msgid "TOOLNAME_UUID"
+msgstr "UUID 生成ツール"
+
+#: plugin/devtoys.py:29
+msgid "TOOLNAME_LOREMIPSUM"
+msgstr "Lorem Ipsum (ダミーテキスト) 生成ツール"
+
+#: plugin/devtoys.py:33
+msgid "TOOLNAME_CHECKSUM"
+msgstr "チェックサム生成"
+
+#: plugin/devtoys.py:37
+msgid "TOOLNAME_CRONPARSER"
+msgstr "Cron パーサ"
+
+#: plugin/devtoys.py:41
+msgid "TOOLNAME_JSONFORMAT"
+msgstr "JSON フォーマッター"
+
+#: plugin/devtoys.py:45
+msgid "TOOLNAME_SQLFORMAT"
+msgstr "SQL フォーマッター"
+
+#: plugin/devtoys.py:49
+msgid "TOOLNAME_XMLFORMAT"
+msgstr "XML フォーマッター"
+
+#: plugin/devtoys.py:53
+msgid "TOOLNAME_JSONYAML"
+msgstr "JSON <> YAML 変換ツール"
+
+#: plugin/devtoys.py:57
+msgid "TOOLNAME_JWT"
+msgstr "JWT エンコーダー / デコーダー"
+
+#: plugin/devtoys.py:61
+msgid "TOOLNAME_COLORBLIND"
+msgstr "色覚異常シミュレーター"
+
+#: plugin/devtoys.py:65
+msgid "TOOLNAME_COLOR"
+msgstr "カラーピッカーとコントラスト"
+
+#: plugin/devtoys.py:69
+msgid "TOOLNAME_IMGCOMP"
+msgstr "PNG / JPEG 最適化"
+
+#: plugin/devtoys.py:73
+msgid "TOOLNAME_IMAGECONVERTER"
+msgstr "画像フォーマット変換"
+
+#: plugin/devtoys.py:77
+msgid "TOOLNAME_MARKDOWN"
+msgstr "Markdown プレビュー"
+
+#: plugin/devtoys.py:81
+msgid "TOOLNAME_REGEX"
+msgstr "正規表現テスター"
+
+#: plugin/devtoys.py:85
+msgid "TOOLNAME_TIME"
+msgstr "Unix タイムスタンプ変換"
+
+#: plugin/devtoys.py:89
+msgid "TOOLNAME_BASECONVERTER"
+msgstr "基数変換ツール"
+
+#: plugin/devtoys.py:93
+msgid "TOOLNAME_STRING"
+msgstr "文字列の検査と変換"
+
+#: plugin/devtoys.py:97
+msgid "TOOLNAME_URL"
+msgstr "URL エンコーダー / デコーダー"
+
+#: plugin/devtoys.py:101
+msgid "TOOLNAME_HTML"
+msgstr "HTML エンコーダー / デコーダー"
+
+#: plugin/devtoys.py:105
+msgid "TOOLNAME_DIFF"
+msgstr "テキスト比較ツール"
+
+#: plugin/devtoys.py:109
+msgid "TOOLNAME_XMLVALIDATOR"
+msgstr "XML の検証"
+
+#: plugin/devtoys.py:113
+msgid "TOOLNAME_ESCAPE"
+msgstr "テキストのエスケープと解除"
+
+#: plugin/devtoys.py:117
+msgid "TOOLNAME_SETTINGS"
+msgstr "設定"
+

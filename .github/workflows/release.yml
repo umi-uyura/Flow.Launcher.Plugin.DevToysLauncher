@@ -1,0 +1,69 @@
+name: Build and Publish
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build-publish:
+    name: Build and Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.8"
+
+      - name: Set up Environment
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt --upgrade
+          python -m pip install -r requirements-dev.txt --upgrade
+
+      - name: Install Dependencies to Local
+        run: python commands.py setup-env-to-lib
+
+      - name: Compile all languages
+        run: python commands.py compile
+
+      - name: Update 'plugin.json' information
+        run: python commands.py gen-plugin-info
+
+      - name: Remove Python file artifacts
+        run: python commands.py clean-pyc
+
+      - name: Pack plugin to a zip file
+        run: python commands.py build
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          # This token is provided by Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Get Asset name
+        run: |
+          export PKG=$(ls build/ | grep zip)
+          set -- $PKG
+          echo "name=$1" >> $GITHUB_ENV
+
+      - name: Upload Release (zip) to GitHub
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: build/${{ env.name }}
+          asset_name: ${{ env.name }}
+          asset_content_type: application/zip

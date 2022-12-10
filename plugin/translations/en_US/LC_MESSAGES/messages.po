@@ -1,0 +1,132 @@
+# English (United States) translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-11-30 23:34+0900\n"
+"PO-Revision-Date: 2020-09-20 18:04+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: plugin/devtoys.py:9
+msgid "TOOLNAME_BASE64"
+msgstr "Base64 Text Encoder/Decoder"
+
+#: plugin/devtoys.py:13
+msgid "TOOLNAME_BASE64IMG"
+msgstr "Base64 Image Encoder/Decoder"
+
+#: plugin/devtoys.py:17
+msgid "TOOLNAME_GZIP"
+msgstr "GZip Encoder/Decoder"
+
+#: plugin/devtoys.py:21
+msgid "TOOLNAME_HASH"
+msgstr "Hash Generator"
+
+#: plugin/devtoys.py:25
+msgid "TOOLNAME_UUID"
+msgstr "UUID Generator"
+
+#: plugin/devtoys.py:29
+msgid "TOOLNAME_LOREMIPSUM"
+msgstr "Lorem Ipsum Generator"
+
+#: plugin/devtoys.py:33
+msgid "TOOLNAME_CHECKSUM"
+msgstr "Checksum File"
+
+#: plugin/devtoys.py:37
+msgid "TOOLNAME_CRONPARSER"
+msgstr "Cron Parser"
+
+#: plugin/devtoys.py:41
+msgid "TOOLNAME_JSONFORMAT"
+msgstr "Json Formatter"
+
+#: plugin/devtoys.py:45
+msgid "TOOLNAME_SQLFORMAT"
+msgstr "SQL Formatter"
+
+#: plugin/devtoys.py:49
+msgid "TOOLNAME_XMLFORMAT"
+msgstr "XML Formatter"
+
+#: plugin/devtoys.py:53
+msgid "TOOLNAME_JSONYAML"
+msgstr "Json <> Yaml"
+
+#: plugin/devtoys.py:57
+msgid "TOOLNAME_JWT"
+msgstr "JWT Decoder"
+
+#: plugin/devtoys.py:61
+msgid "TOOLNAME_COLORBLIND"
+msgstr "Color Blindness Simulator"
+
+#: plugin/devtoys.py:65
+msgid "TOOLNAME_COLOR"
+msgstr "Color Picker & Contrast"
+
+#: plugin/devtoys.py:69
+msgid "TOOLNAME_IMGCOMP"
+msgstr "PNG/JPEG compressor"
+
+#: plugin/devtoys.py:73
+msgid "TOOLNAME_IMAGECONVERTER"
+msgstr "Image Converter"
+
+#: plugin/devtoys.py:77
+msgid "TOOLNAME_MARKDOWN"
+msgstr "Markdown Preview"
+
+#: plugin/devtoys.py:81
+msgid "TOOLNAME_REGEX"
+msgstr "Regular Expression Tester"
+
+#: plugin/devtoys.py:85
+msgid "TOOLNAME_TIME"
+msgstr "Unix Timestamp Converter"
+
+#: plugin/devtoys.py:89
+msgid "TOOLNAME_BASECONVERTER"
+msgstr "Number Base Converter"
+
+#: plugin/devtoys.py:93
+msgid "TOOLNAME_STRING"
+msgstr "String Utilities"
+
+#: plugin/devtoys.py:97
+msgid "TOOLNAME_URL"
+msgstr "URL Encoder/Decoder"
+
+#: plugin/devtoys.py:101
+msgid "TOOLNAME_HTML"
+msgstr "HTML Encoder/Decoder"
+
+#: plugin/devtoys.py:105
+msgid "TOOLNAME_DIFF"
+msgstr "Text Comparer"
+
+#: plugin/devtoys.py:109
+msgid "TOOLNAME_XMLVALIDATOR"
+msgstr "XML Validator"
+
+#: plugin/devtoys.py:113
+msgid "TOOLNAME_ESCAPE"
+msgstr "Text Escape / Unescape"
+
+#: plugin/devtoys.py:117
+msgid "TOOLNAME_SETTINGS"
+msgstr "Settings"
+

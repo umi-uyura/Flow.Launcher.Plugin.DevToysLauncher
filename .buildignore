@@ -1,0 +1,14 @@
+# folder
+*.git*
+*.github*
+*.venv*
+*.vscode*
+*.history*
+*build*
+*plugin/__pycache__*
+
+# file
+.gitignore
+.gitattributes
+.buildignore
+link-plugin.bat
