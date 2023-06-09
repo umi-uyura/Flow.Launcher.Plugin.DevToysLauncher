@@ -101,6 +101,10 @@ DEVTOYS_TOOLS = (
         "name": _l("TOOLNAME_HTML")
     },
     {
+        "tool": "certficate",
+        "name": _l("TOOLNAME_CERTIFICATE")
+    },
+    {
         "tool": "diff",
         "name": _l("TOOLNAME_DIFF")
     },
