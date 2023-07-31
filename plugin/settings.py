@@ -23,7 +23,7 @@ LOCAL = os.getenv("local", "en")
 # the information of package
 __app_name__ = "DevToys Launcher"
 __package_name__ = "Flow.Launcher.Plugin.DevToysLauncher"
-__version__ = "1.1.0"
+__version__ = "1.2.0"
 __short_description__ = "Launch DevToys tools"
 GITHUB_USERNAME = "umi-uyura"
 
