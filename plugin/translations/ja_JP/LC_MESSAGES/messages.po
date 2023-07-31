@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-08 23:25+0900\n"
+"POT-Creation-Date: 2023-07-31 22:24+0900\n"
 "PO-Revision-Date: 2022-11-30 23:12+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -39,98 +39,102 @@ msgid "TOOLNAME_UUID"
 msgstr "UUID 生成ツール"
 
 #: plugin/devtoys.py:29
+msgid "TOOLNAME_PASSWORD"
+msgstr "パスワード生成"
+
+#: plugin/devtoys.py:33
 msgid "TOOLNAME_LOREMIPSUM"
 msgstr "Lorem Ipsum (ダミーテキスト) 生成ツール"
 
-#: plugin/devtoys.py:33
+#: plugin/devtoys.py:37
 msgid "TOOLNAME_CHECKSUM"
 msgstr "チェックサム生成"
 
-#: plugin/devtoys.py:37
+#: plugin/devtoys.py:41
 msgid "TOOLNAME_CRONPARSER"
 msgstr "Cron パーサ"
 
-#: plugin/devtoys.py:41
+#: plugin/devtoys.py:45
 msgid "TOOLNAME_JSONFORMAT"
 msgstr "JSON フォーマッター"
 
-#: plugin/devtoys.py:45
+#: plugin/devtoys.py:49
 msgid "TOOLNAME_SQLFORMAT"
 msgstr "SQL フォーマッター"
 
-#: plugin/devtoys.py:49
+#: plugin/devtoys.py:53
 msgid "TOOLNAME_XMLFORMAT"
 msgstr "XML フォーマッター"
 
-#: plugin/devtoys.py:53
+#: plugin/devtoys.py:57
 msgid "TOOLNAME_JSONYAML"
 msgstr "JSON <> YAML 変換ツール"
 
-#: plugin/devtoys.py:57
+#: plugin/devtoys.py:61
 msgid "TOOLNAME_JWT"
 msgstr "JWT エンコーダー / デコーダー"
 
-#: plugin/devtoys.py:61
+#: plugin/devtoys.py:65
 msgid "TOOLNAME_COLORBLIND"
 msgstr "色覚異常シミュレーター"
 
-#: plugin/devtoys.py:65
+#: plugin/devtoys.py:69
 msgid "TOOLNAME_COLOR"
 msgstr "カラーピッカーとコントラスト"
 
-#: plugin/devtoys.py:69
+#: plugin/devtoys.py:73
 msgid "TOOLNAME_IMGCOMP"
 msgstr "PNG / JPEG 最適化"
 
-#: plugin/devtoys.py:73
+#: plugin/devtoys.py:77
 msgid "TOOLNAME_IMAGECONVERTER"
 msgstr "画像フォーマット変換"
 
-#: plugin/devtoys.py:77
+#: plugin/devtoys.py:81
 msgid "TOOLNAME_MARKDOWN"
 msgstr "Markdown プレビュー"
 
-#: plugin/devtoys.py:81
+#: plugin/devtoys.py:85
 msgid "TOOLNAME_REGEX"
 msgstr "正規表現テスター"
 
-#: plugin/devtoys.py:85
+#: plugin/devtoys.py:89
 msgid "TOOLNAME_TIME"
 msgstr "Unix タイムスタンプ変換"
 
-#: plugin/devtoys.py:89
+#: plugin/devtoys.py:93
 msgid "TOOLNAME_BASECONVERTER"
 msgstr "基数変換ツール"
 
-#: plugin/devtoys.py:93
+#: plugin/devtoys.py:97
 msgid "TOOLNAME_STRING"
 msgstr "文字列の検査と変換"
 
-#: plugin/devtoys.py:97
+#: plugin/devtoys.py:101
 msgid "TOOLNAME_URL"
 msgstr "URL エンコーダー / デコーダー"
 
-#: plugin/devtoys.py:101
+#: plugin/devtoys.py:105
 msgid "TOOLNAME_HTML"
 msgstr "HTML エンコーダー / デコーダー"
 
-#: plugin/devtoys.py:105
+#: plugin/devtoys.py:109
 msgid "TOOLNAME_CERTIFICATE"
 msgstr "証明書 エンコーダー / デコーダー"
 
-#: plugin/devtoys.py:109
+#: plugin/devtoys.py:113
 msgid "TOOLNAME_DIFF"
 msgstr "テキスト比較ツール"
 
-#: plugin/devtoys.py:113
+#: plugin/devtoys.py:117
 msgid "TOOLNAME_XMLVALIDATOR"
 msgstr "XML の検証"
 
-#: plugin/devtoys.py:117
+#: plugin/devtoys.py:121
 msgid "TOOLNAME_ESCAPE"
 msgstr "テキストのエスケープと解除"
 
-#: plugin/devtoys.py:121
+#: plugin/devtoys.py:125
 msgid "TOOLNAME_SETTINGS"
 msgstr "設定"
 
