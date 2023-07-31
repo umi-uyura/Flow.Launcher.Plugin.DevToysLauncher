@@ -25,6 +25,10 @@ DEVTOYS_TOOLS = (
         "name": _l("TOOLNAME_UUID")
     },
     {
+        "tool": "password",
+        "name": _l("TOOLNAME_PASSWORD")
+    },
+    {
         "tool": "loremipsum",
         "name": _l("TOOLNAME_LOREMIPSUM")
     },

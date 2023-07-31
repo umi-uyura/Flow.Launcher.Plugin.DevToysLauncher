@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-08 23:25+0900\n"
+"POT-Creation-Date: 2023-07-31 22:24+0900\n"
 "PO-Revision-Date: 2020-09-20 18:04+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_US\n"
@@ -39,98 +39,102 @@ msgid "TOOLNAME_UUID"
 msgstr "UUID Generator"
 
 #: plugin/devtoys.py:29
+msgid "TOOLNAME_PASSWORD"
+msgstr "Password Generator"
+
+#: plugin/devtoys.py:33
 msgid "TOOLNAME_LOREMIPSUM"
 msgstr "Lorem Ipsum Generator"
 
-#: plugin/devtoys.py:33
+#: plugin/devtoys.py:37
 msgid "TOOLNAME_CHECKSUM"
 msgstr "Checksum File"
 
-#: plugin/devtoys.py:37
+#: plugin/devtoys.py:41
 msgid "TOOLNAME_CRONPARSER"
 msgstr "Cron Parser"
 
-#: plugin/devtoys.py:41
+#: plugin/devtoys.py:45
 msgid "TOOLNAME_JSONFORMAT"
 msgstr "Json Formatter"
 
-#: plugin/devtoys.py:45
+#: plugin/devtoys.py:49
 msgid "TOOLNAME_SQLFORMAT"
 msgstr "SQL Formatter"
 
-#: plugin/devtoys.py:49
+#: plugin/devtoys.py:53
 msgid "TOOLNAME_XMLFORMAT"
 msgstr "XML Formatter"
 
-#: plugin/devtoys.py:53
+#: plugin/devtoys.py:57
 msgid "TOOLNAME_JSONYAML"
 msgstr "Json <> Yaml"
 
-#: plugin/devtoys.py:57
+#: plugin/devtoys.py:61
 msgid "TOOLNAME_JWT"
 msgstr "JWT Decoder"
 
-#: plugin/devtoys.py:61
+#: plugin/devtoys.py:65
 msgid "TOOLNAME_COLORBLIND"
 msgstr "Color Blindness Simulator"
 
-#: plugin/devtoys.py:65
+#: plugin/devtoys.py:69
 msgid "TOOLNAME_COLOR"
 msgstr "Color Picker & Contrast"
 
-#: plugin/devtoys.py:69
+#: plugin/devtoys.py:73
 msgid "TOOLNAME_IMGCOMP"
 msgstr "PNG/JPEG compressor"
 
-#: plugin/devtoys.py:73
+#: plugin/devtoys.py:77
 msgid "TOOLNAME_IMAGECONVERTER"
 msgstr "Image Converter"
 
-#: plugin/devtoys.py:77
+#: plugin/devtoys.py:81
 msgid "TOOLNAME_MARKDOWN"
 msgstr "Markdown Preview"
 
-#: plugin/devtoys.py:81
+#: plugin/devtoys.py:85
 msgid "TOOLNAME_REGEX"
 msgstr "Regular Expression Tester"
 
-#: plugin/devtoys.py:85
+#: plugin/devtoys.py:89
 msgid "TOOLNAME_TIME"
 msgstr "Unix Timestamp Converter"
 
-#: plugin/devtoys.py:89
+#: plugin/devtoys.py:93
 msgid "TOOLNAME_BASECONVERTER"
 msgstr "Number Base Converter"
 
-#: plugin/devtoys.py:93
+#: plugin/devtoys.py:97
 msgid "TOOLNAME_STRING"
 msgstr "String Utilities"
 
-#: plugin/devtoys.py:97
+#: plugin/devtoys.py:101
 msgid "TOOLNAME_URL"
 msgstr "URL Encoder/Decoder"
 
-#: plugin/devtoys.py:101
+#: plugin/devtoys.py:105
 msgid "TOOLNAME_HTML"
 msgstr "HTML Encoder/Decoder"
 
-#: plugin/devtoys.py:105
+#: plugin/devtoys.py:109
 msgid "TOOLNAME_CERTIFICATE"
 msgstr "Certificate Encoder / Decoder"
 
-#: plugin/devtoys.py:109
+#: plugin/devtoys.py:113
 msgid "TOOLNAME_DIFF"
 msgstr "Text Comparer"
 
-#: plugin/devtoys.py:113
+#: plugin/devtoys.py:117
 msgid "TOOLNAME_XMLVALIDATOR"
 msgstr "XML Validator"
 
-#: plugin/devtoys.py:117
+#: plugin/devtoys.py:121
 msgid "TOOLNAME_ESCAPE"
 msgstr "Text Escape / Unescape"
 
-#: plugin/devtoys.py:121
+#: plugin/devtoys.py:125
 msgid "TOOLNAME_SETTINGS"
 msgstr "Settings"
 
