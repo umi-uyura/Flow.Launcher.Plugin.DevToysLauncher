@@ -6,6 +6,7 @@
 *.history*
 *build*
 *plugin/__pycache__*
+*tools*
 
 # file
 .gitignore
