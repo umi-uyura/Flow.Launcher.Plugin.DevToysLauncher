@@ -36,10 +36,14 @@ Plugin config file at Flow Launcher userdata folder. (You can locate it quickly 
 Config file location: `<Flow Launcher UserData Folder>\Plugins\DevToysLauncher-<version>\.env`
 
 ```
-local=en  # en or ja
+local=en  # en, ja or zh
 ```
 
-Currently, English ( `en` ) and Japanese ( `ja` ) are supported.
+Supported language
+
+* English ( `en` )
+* Japanese ( `ja` )
+* Simplified Chinese ( `zh` ) - Thanks [@yhdsl](https://github.com/yhdsl)
 
 
 - - -
